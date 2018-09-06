@@ -1,0 +1,24 @@
+/* 页面公共样式 */
+
+.public-header{
+     position: relative; /*防止页面有absolute属性？？ */
+     /* height: 40px; */
+     background-color: #121212;
+}
+
+.public-header-nav{
+    position: relative;
+    height: 40px;
+    width: 980px;
+    margin:0 auto;
+    /* background-color: #fff; */
+}
+
+.public-header-nav-index{
+    float:left;
+    padding-left: 22px;
+    background: url(../img/index-index-logo.png) no-repeat left center;
+    height: 40px;
+    color: #fff;
+    line-height: 40px;
+}

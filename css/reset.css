@@ -1,0 +1,30 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body,html{
+    font-family: 'Microsoft YaHei';
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* table{
+    border-collapse: collapse;
+} */
+
+/* 清除浮动 */
+clearfix::after{
+    content:'';
+    display: block;
+}
+
+clearfix{
+    display:inline-table;
+}
